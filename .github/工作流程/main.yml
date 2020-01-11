@@ -1,0 +1,25 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: Run a multi-line script
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
+版本： v1.0.0 
+-名称：下载神器
+  用途：actions/download-artifact@v1.0.0
+  与：
+    ＃工件名称
+    名称： 
+    ＃目标路径
+    路径：＃可选
